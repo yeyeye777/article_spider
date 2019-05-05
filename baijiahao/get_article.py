@@ -131,8 +131,8 @@ class baijia_3():
 
 
 if __name__ == '__main__':
+    baijia_3=baijia_3()
     while True:
-        baijia_3=baijia_3()
         info=baijia_3.checksql()
         articles=baijia_3.parse(info)
         if len(articles)==0:
