@@ -77,8 +77,6 @@ class souhu_2():
             article['title']= data['title']
             article['source_url'] = "https://"+data['link']
             article['source_name'] = '搜狐号'
-            article['baidu_url']= "https://"+data['link']
-            article['source_type'] = 'ai_writer'
             img_url = data['cover']
             if img_url.split('//')[0] == "http:":
                 article['img_url'] = img_url
